@@ -64,12 +64,10 @@ h2 {
   text-shadow: 0px 0.1px rebeccapurple;
   color: rgba(black, 0.9);
   font-weight: 500;
-
 }
 .logo span {
-  color: #333;
-  font-weight: 600;
-
+  /* color: #333;
+  font-weight: 600; */
 }
 .main-nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -144,14 +142,20 @@ h2 {
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 2px;
 }
-@media (max-width: 960px) .projects {
-  grid-template-columns: repeat(3, 1fr);
+@media (max-width: 960px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
-@media (max-width: 700px) .projects {
-  grid-template-columns: repeat(2, 1fr);
+@media (max-width: 700px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-@media (max-width: 500px) .projects {
-  grid-template-columns: 1fr;
+@media (max-width: 500px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
 }
 .projects div:hover .content {
   opacity: 0.98;
@@ -202,26 +206,12 @@ h2 {
 .main-footer {
   background: rgba(38, 13, 61, 0.9);
 }
-.main-footer ul li {
-  line-height: 2;
+.main-footer p {
+  margin:0;
+  padding:35px;
+  text-align: center;
 }
-.main-footer .container {
-  min-height: 100px;
-  padding: 20px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.main-footer .social {
-  display: flex;
-  align-items: center;
-}
-.main-footer .social p {
-  margin-right: 20px;
-}
-.main-footer .social a {
-  margin-right: 10px;
-}
+
 
 .about-a {
   display: flex;
