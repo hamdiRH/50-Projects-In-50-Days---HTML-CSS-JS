@@ -1,5 +1,5 @@
 /** Global CSS */
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans&display=swap");
 * {
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
@@ -65,15 +65,15 @@ h2 {
   text-shadow: 0px 0.1px rebeccapurple;
   color: rgba(black, 0.9);
   font-weight: 500;
-  margin:auto 15px;
+  margin: auto 15px;
 }
-@media (max-width: 580px){
-  .logo{
+@media (max-width: 580px) {
+  .logo {
     display: none;
   }
 }
 .logo span {
-  color:#61dafb;
+  color: #61dafb;
   font-weight: 600;
 }
 .main-nav {
@@ -87,6 +87,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
 }
 .main-nav ul {
   display: flex;
@@ -134,7 +135,7 @@ h2 {
   /* color: #0181f5; */
   color: rgb(156, 78, 233);
   margin-bottom: 22px;
-  font-family: 'Alata', sans-serif;
+  font-family: "Alata", sans-serif;
   font-size: 20px;
 }
 .showcase h1 {
@@ -292,24 +293,24 @@ h2 {
 @keyframes anim-1 {
   from {
     transform: rotateZ(120deg) rotateX(66deg) rotateZ(0deg);
- }
+  }
   to {
     transform: rotateZ(120deg) rotateX(66deg) rotateZ(360deg);
- }
+  }
 }
 @keyframes anim-2 {
   from {
     transform: rotateZ(240deg) rotateX(66deg) rotateZ(0deg);
- }
+  }
   to {
     transform: rotateZ(240deg) rotateX(66deg) rotateZ(360deg);
- }
+  }
 }
 @keyframes anim-3 {
   from {
     transform: rotateZ(360deg) rotateX(66deg) rotateZ(0deg);
- }
+  }
   to {
     transform: rotateZ(360deg) rotateX(66deg) rotateZ(360deg);
- }
+  }
 }
